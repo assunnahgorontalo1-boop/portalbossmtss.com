@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Portal Inventaris BOS</title>
+  <desc id="desc">Logo elegan berupa permata terbuka dengan buku inventaris dan aksen koin Dana BOS.</desc>
+  <defs>
+    <linearGradient id="gem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#69c6d0"/>
+      <stop offset=".52" stop-color="#197d83"/>
+      <stop offset="1" stop-color="#123d56"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe0a0"/>
+      <stop offset="1" stop-color="#f28c6b"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Bentuk permata terbuka: amanah, nilai, dan transparansi -->
+  <path d="M120 18 205 67l-16 93-69 55-69-55-16-93z" fill="none" stroke="url(#gold)" stroke-width="3" opacity=".9"/>
+  <path d="M120 31 190 71l-13 78-57 45-57-45-13-78z" fill="url(#gem)" opacity=".92"/>
+  <path d="M120 31v163M50 71h140" fill="none" stroke="#9ee3e4" stroke-width="1.5" opacity=".5"/>
+
+  <!-- Buku terbuka sebagai simbol pencatatan inventaris -->
+  <path d="M57 91c20-11 41-8 63 5v65c-22-13-43-15-63-5z" fill="#f5ffff" stroke="#ffe0a0" stroke-width="3"/>
+  <path d="M183 91c-20-11-41-8-63 5v65c22-13 43-15 63-5z" fill="#e8f8f8" stroke="#ffe0a0" stroke-width="3"/>
+  <path d="M120 96v65M69 108c15-5 31-3 45 5M69 126c15-5 31-3 45 5M171 108c-15-5-31-3-45 5M171 126c-15-5-31-3-45 5" fill="none" stroke="#197d83" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Bintang amanah -->
+  <path d="m120 54 5 12 13 1-10 8 3 13-11-7-11 7 3-13-10-8 13-1z" fill="url(#gold)" filter="url(#glow)"/>
+
+  <!-- Koin Dana BOS -->
+  <circle cx="174" cy="164" r="24" fill="url(#gold)" stroke="#fff0c8" stroke-width="3"/>
+  <circle cx="174" cy="164" r="17" fill="none" stroke="#123d56" stroke-width="1.5" opacity=".65"/>
+  <text x="174" y="171" text-anchor="middle" fill="#123d56" font-family="Georgia,serif" font-size="20" font-weight="700">Rp</text>
+
+  <path d="M67 192h106" stroke="#ffe0a0" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+  <text x="120" y="211" text-anchor="middle" fill="#f8e6b4" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.6">PORTAL · BOS</text>
+</svg>

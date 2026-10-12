@@ -1,0 +1,12 @@
+body{padding:25px}.title{color:#5C6AC4}
+
+/* Manajemen Pengguna menggunakan komponen visual aplikasi yang sudah ada. */
+.user-management-card{margin-top:12px}
+.user-management-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:8px}
+.user-management-heading h2{margin-bottom:5px}
+.user-management-heading p{margin-bottom:0}
+.user-management-message{min-height:20px;margin:10px 0;color:var(--green-mid);font-size:12px;font-weight:600}
+.user-management-table{max-width:none;padding:0;margin-top:10px}
+.user-management-table table{min-width:720px}
+.user-management-menu{margin-top:3px}
+@media(max-width:650px){.user-management-heading{align-items:stretch;flex-direction:column}.user-management-heading .btn{justify-content:center}.user-management-table{padding:0}}
